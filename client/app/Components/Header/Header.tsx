@@ -1,7 +1,7 @@
 "use client";
 import { useTasks } from "@/context/taskContext";
 import { useUserContext } from "@/context/userContext";
-import { github, moon, profile } from "@/utils/Icons";
+import { github, profile } from "@/utils/Icons";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import React from "react";
@@ -56,7 +56,7 @@ function Header() {
 
         <div className="flex gap-4 items-center">
           <Link
-            href="https://github.com/Maclinz/taskfyer"
+            href="https://github.com/Hr810004/"
             passHref
             target="_blank"
             rel="noopener noreferrer"
@@ -65,16 +65,7 @@ function Header() {
             {github}
           </Link>
           <Link
-            href="https://github.com/Maclinz/taskfyer"
-            passHref
-            target="_blank"
-            rel="noopener noreferrer"
-            className="h-[40px] w-[40px] text-purple-500 rounded-full flex items-center justify-center text-lg border-2 border-[#E6E6E6]"
-          >
-            {moon}
-          </Link>
-          <Link
-            href="https://github.com/Maclinz/taskfyer"
+            href="https://harsh810.vercel.app"
             passHref
             target="_blank"
             rel="noopener noreferrer"
